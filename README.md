@@ -1,32 +1,32 @@
-# Project Worktime - Testing
+# Project Work Time - Testing
 
 ## Learning Goals
 
-- Learning Goal 1
-- Learning Goal 2
+- Spend some time working on your project.
 
-## Introduction
+## Project Work Time
 
-A 1-2 sentence summary of what will be covered.
+Now that we have learned a little more about testing in Java, it's time to
+apply this new knowledge to our projects!
 
-## Topic 1
+Add unit tests to your project to automate testing. Consider the following
+instructions:
 
-Discuss the topic of the reading. Break into sections and sub-sections as
-appropriate to help with the reader's orientation with the material and future
-referencing.
-
-## Topic 2
-
-Discuss the topic of the reading. Break into sections and sub-sections as
-appropriate to help with the reader's orientation with the material and future
-referencing.
-
-## Conclusion
-
-A short one or two paragraph summary of the contents of the lessons, recapping
-the learning goals.
-
-## Resources
-
-- [Resource Link 1](example.com)
-- [Resource Link 2](example.com)
+- Create a unit test class for the `City` class.
+  - There should exist unit tests to test the getter and setter methods.
+- Create a unit test class for the `Airport` class.
+  - There should exist unit tests to test the getter and setter methods.
+    - Including methods to get/set the three-character airport code that we
+      implemented after learning about regular expressions.
+- Create a unit test class for the `Reservation` class.
+  - There should exist unit tests for any getter and setter methods.
+  - There should exist a unit test for adding a reservation.
+  - There should exist a unit test for cancelling a reservation.
+  - These tests should also capture the date-time object we added to this class
+    after learning about date-time objects.
+- Tips:
+  - Refer to the code-alongs in this past section as needed to help you
+    walk through the creation of unit tests.
+  - Refer back to the Assertions lesson to see what assertions should be used.
+    - Remember that unit tests are supposed to be small. Try to keep each test
+      to one assert per test.
